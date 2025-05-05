@@ -15,7 +15,7 @@ def fetch_weather():
     url = "https://api.met.no/weatherapi/locationforecast/2.0/compact"
     params = {
         "lat": "48.1486",  # Bratislava latitude
-        "lon": "17.1077"   # Bratislava longitude
+        "lon": "17.1078"   # Bratislava longitude
     }
     headers = {
         "User-Agent": "YourAppName/1.0 (your.email@example.com)"  # Replace with your info
